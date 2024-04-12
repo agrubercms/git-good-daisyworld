@@ -39,7 +39,7 @@ The live flowers spread to the neighbouring land based on seeding probability de
 
 The `CMakeLists.txt` file makes it easy to compile and run the code:
 
-```
+```bash
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build
 build/daisyworld
@@ -47,10 +47,32 @@ build/daisyworld
 
 Alternatively you can manually run the compilation with something like:
 
-```
+```bash
 g++ main.cpp daisy.cpp world.cpp
 ```
 
+<<<<<<< Updated upstream
+=======
+## Output
+
+The simulation will output a result similar to the one shown below:
+
+```bash
+💮💮🌸🌸🌸🌸🌸💮💮  
+🌸💮💮🌸🌸🌸🌸🌸🌸🌸
+🌸💮💮💮🌸🌸🌸🌸🌸🌸
+💮🌸💮🌸🌸🌸🌸🌸🌸🌸
+🌸💮🌸💮💮🌸🌸💮💮🌸
+🌸🌸🌸💮💮🌸🌸🌸💮🌸
+  🌸🌸💮💮🌸💮🌸💮💮
+  🌸🌸🌸🌸🌸🌸💮💮🌸
+    🌸🌸🌸🌸🌸🌸🌸🌸
+            🌸🌸🌸🌸
+
+Global temperature: 29.1791
+```
+
+>>>>>>> Stashed changes
 ## Bibliography
 
 [[1]](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1600-0889.1983.tb00031.x)
